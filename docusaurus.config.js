@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'OOC Radio API Documentation',
   tagline: "Leverage Out of Character Radio's API",
-  url: 'https://docs.oocradio.com',
+  url: 'https://developer.oocradio.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

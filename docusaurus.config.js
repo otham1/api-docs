@@ -8,20 +8,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'OOC Radio API Documentation',
   tagline: "Leverage Out of Character Radio's API",
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://docs.oocradio.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'oocradio',
+  projectName: 'api-docs',
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -38,7 +35,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/oocradio/api-docs/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -50,7 +47,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/oocradio/api-docs/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -77,7 +74,7 @@ const config = {
           },
           {to: '/changelog', label: 'Changelog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/oocradio/api-docs',
             label: 'GitHub',
             position: 'right',
           },

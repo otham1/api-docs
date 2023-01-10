@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://your-docusaurus-test-site.com/changelog</id>
+    <id>https://docs.oocradio.com/changelog</id>
     <title>OOC Radio API Documentation Blog</title>
     <updated>2023-01-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://your-docusaurus-test-site.com/changelog"/>
+    <link rel="alternate" href="https://docs.oocradio.com/changelog"/>
     <subtitle>OOC Radio API Documentation Blog</subtitle>
-    <icon>https://your-docusaurus-test-site.com/img/favicon.png</icon>
+    <icon>https://docs.oocradio.com/img/favicon.png</icon>
     <entry>
         <title type="html"><![CDATA[Introducing our API docs]]></title>
         <id>introducing-our-api-docs</id>
-        <link href="https://your-docusaurus-test-site.com/changelog/introducing-our-api-docs"/>
+        <link href="https://docs.oocradio.com/changelog/introducing-our-api-docs"/>
         <updated>2023-01-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This is my first post on Docusaurus 2.]]></summary>
         <content type="html"><![CDATA[<p>We are happy to introduce Out of Character Radio's API documentation page to help developers better under how they can leverage the API we offer.</p><p>We created this documentation page soley to document the different functions of our API and provide examples of how to utilize them.</p><p>To get started, simply navigate <a href="/docs/intro">here</a> to the docs tab where you'll find our existing API endpoints. As we add new endpoints, we'll update this documentation site.</p><p>If you notice any errors, or bugs, feel free to create a PR on GitHub or email <a href="mailto:webmaster@oocradio.com" target="_blank" rel="noopener noreferrer">webmaster@oocradio.com</a>.</p>]]></content>

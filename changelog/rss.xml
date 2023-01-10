@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>OOC Radio API Documentation Blog</title>
+        <link>https://your-docusaurus-test-site.com/changelog</link>
+        <description>OOC Radio API Documentation Blog</description>
+        <lastBuildDate>Tue, 10 Jan 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Introducing our API docs]]></title>
+            <link>https://your-docusaurus-test-site.com/changelog/introducing-our-api-docs</link>
+            <guid>introducing-our-api-docs</guid>
+            <pubDate>Tue, 10 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is my first post on Docusaurus 2.]]></description>
+            <content:encoded><![CDATA[<p>We are happy to introduce Out of Character Radio's API documentation page to help developers better under how they can leverage the API we offer.</p><p>We created this documentation page soley to document the different functions of our API and provide examples of how to utilize them.</p><p>To get started, simply navigate <a href="/docs/intro">here</a> to the docs tab where you'll find our existing API endpoints. As we add new endpoints, we'll update this documentation site.</p><p>If you notice any errors, or bugs, feel free to create a PR on GitHub or email <a href="mailto:webmaster@oocradio.com" target="_blank" rel="noopener noreferrer">webmaster@oocradio.com</a>.</p>]]></content:encoded>
+            <author>johnny@oocradio.com (Johnny)</author>
+            <author>drake@oocradio.com (Drake)</author>
+        </item>
+    </channel>
+</rss>
